@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(45deg,blue,teal,white); 
+    height: 100vh; 
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.sm-jumbotron {
+    margin: 0px;
+    padding: 2em;
+    background-color: orange;
+    color: #fff;
+}
+
+button.btn-submit {
+    background-color: orange;
+    color: #fff;
+    width: 100%;
+    opacity: .8;
+}
+
+button.btn-submit:focus, button.btn-submit:hover{
+    opacity:1;
+}
+
+div.validation-error {
+    color:red;
+}
